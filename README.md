@@ -11,7 +11,6 @@
 
 Obs: Este repositório tem como objetivo realizar as atividades propostas pelo professor Wesley Dias, que leciona a matéria de Sistemas Distribuídos e Mobile no Centro Universitário Una de Contegem.
 
-
 ## Práticas
 
-Os exercícios de cada arquivo PDF disponibilizados se encontra dentro da pasta [lib](lib/) com sua determinada pratica e seu arquivo PDF.
+Os exercícios de cada arquivo PDF disponibilizados se encontra dentro da pasta [lib](lib/) com sua determinada Prática e seu arquivo PDF.
