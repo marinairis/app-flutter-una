@@ -14,4 +14,4 @@ Obs: Este repositório tem como objetivo realizar as atividades propostas pelo p
 
 ## Práticas
 
-Os exercícios de cada arquivo PDF disponibilizados se encontra dentro da pasta `lib` com sua determinada pratica e seu arquivo PDF.
+Os exercícios de cada arquivo PDF disponibilizados se encontra dentro da pasta [lib](lib/) com sua determinada pratica e seu arquivo PDF.
