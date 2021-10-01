@@ -4,4 +4,4 @@ O exercício pedia para alterar os exemplos da prática, para mostrar um nome (m
 
 Print com resultado final da Prática:
 
-![resultado da pratica](img/pratica-2.jpg)
+![resultado da pratica (2)](img/pratica.jpg)
