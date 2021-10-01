@@ -10,3 +10,7 @@
         Gabriel Fernandes,
 
 Obs: Este repositório tem como objetivo realizar as atividades propostas pelo professor Wesley Dias, que leciona a matéria de Sistemas Distribuídos e Mobile no Centro Universitário Una de Contegem.
+
+
+## Práticas
+
