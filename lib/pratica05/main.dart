@@ -9,7 +9,7 @@ void main() {
       children: [
         Expanded(
           child: FittedBox(
-            fit: BoxFit.contain, // Permite aumentar o tamanho da logo.
+            fit: BoxFit.contain,
             child: const FlutterLogo(),
           ),
         ),
