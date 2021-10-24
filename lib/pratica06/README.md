@@ -2,7 +2,7 @@
 
 O exercício pedia para alterar os exemplos da prática, para apresentar um GIF.
 
-Links para as imagens.
+Links para o GIF.
 
 [GIF](https://media.giphy.com/media/xT0xezQGU5xCDJuCPe/giphy.gif)
 
