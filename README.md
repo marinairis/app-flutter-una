@@ -13,4 +13,6 @@ Obs: Este repositório tem como objetivo realizar as atividades propostas pelo p
 
 ## Práticas
 
-Os exercícios de cada arquivo PDF disponibilizados se encontra dentro da pasta [lib](lib/) com sua determinada Prática e seu arquivo PDF.
+- Os exercícos das práticas de Flutter (aula prática) se encontram com seus arquivos PDF disponibilizados dentro da [lib](aula_pratica/lib).
+
+- Os exercícos das teóricas HTML, CSS, JS e outros (aula teórica) se encontram com seus arquivos PDF disponibilizados dentro da [Laboratório](aula_teorica/Laboratório).
