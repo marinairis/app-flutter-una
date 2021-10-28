@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prática 02</title>
+    </head>
+    <body>
+        <p>Minha lista de compras:</p>
+
+        <ul>
+            <li>Arroz</li>
+            <li>Feijão</li>
+            <li>Laranja</li>
+            <li>Maçã</li>
+            <li>Pão</li>
+        </ul>
+
+        <p>Sites</p>
+
+        <ul>
+            <li><a href="https://www.google.com/">Google</a></li>
+            <li><a href="https://www.youtube.com/">YouTube</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+
+        <p>Formulário</p>
+
+        <form action="https://www.google.com/">
+            <label for="nome">Nome:</label>
+            <input type="text/area" name="id" id="nome" value="informe seu nome" onfocus="this.value='';"/>
+
+            <br>
+
+            <a>Veículo: </a>
+
+            <input type="checkbox" name="vehicle" id="bicicleta" value="bicicleta" />
+            <label for="bicicleta">Bicicleta</label>
+
+            <input type="checkbox" name="vehicle" id="moto" value="moto" />
+            <label for="moto">Moto</label>
+
+            <input type="checkbox" name="vehicle" id="carro" value="carro" />
+            <label for="carro">Carro</label>
+
+            <br>
+
+            <fieldset>
+                <legend>Escolaridade:</legend>
+                    <p>
+                    <input type="radio" name="school" id="fundamental" value="fundamental" />
+                    <label for="fundamental">Fundamnetal</label>
+                </p>
+                <p>
+                    <input type="radio" name="school" id="medio" value="medio" />
+                    <label for="medio">Médio</label>
+                </p>
+                <p>
+                    <input type="radio" name="school" id="superior" value="superior" />
+                    <label for="superior">Superior</label>
+                </p>
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
