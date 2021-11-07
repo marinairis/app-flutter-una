@@ -15,4 +15,4 @@ Obs: Este repositório tem como objetivo realizar as atividades propostas pelo p
 
 - Os exercícos das teóricas HTML, CSS, JS e outros (aula teórica) se encontram com seus arquivos PDF disponibilizados dentro da [Laboratório](aula_teorica/Laboratório).
 
-- A prática UC Dual se encontra disponibilizados dentro da [uc_dual](uc_dual)
+- A prática UC Dual se encontra disponibilizados dentro da [uc_dual](uc_dual).
