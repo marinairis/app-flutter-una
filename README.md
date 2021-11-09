@@ -14,5 +14,3 @@ Obs: Este repositório tem como objetivo realizar as atividades propostas pelo p
 - Os exercícos das práticas de Flutter (aula prática) se encontram disponibilizados dentro da [lib](aula_pratica/lib).
 
 - Os exercícos das teóricas HTML, CSS, JS e outros (aula teórica) se encontram disponibilizados dentro da [Laboratório](aula_teorica/Laboratório).
-
-- A prática UC Dual se encontra disponibilizados dentro da [uc_dual](uc_dual).
