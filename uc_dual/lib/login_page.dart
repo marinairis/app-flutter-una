@@ -130,8 +130,10 @@ class LoginState extends State<Login> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: <Color>[
-                    Colors.grey.shade100,
-                    Color.fromRGBO(211, 181, 116, 1.0),
+                    Colors.white,
+                    Colors.white,
+                    // Colors.grey.shade100,
+                    // Color.fromRGBO(211, 181, 116, 1.0),
                   ],
                 ),
             ),
@@ -149,7 +151,7 @@ class LoginState extends State<Login> {
                           Column(
                             children: [
                               Container(
-                                margin: EdgeInsets.only(bottom: 5),
+                                margin: EdgeInsets.only(bottom: 15),
                                 child: TextField(
                                   controller: loginController,
                                   onChanged: (text) {
@@ -171,7 +173,7 @@ class LoginState extends State<Login> {
                                 ),
                               ),
                               Container(
-                                margin: EdgeInsets.only(top: 5),
+                                margin: EdgeInsets.only(top: 15),
                                 child: TextField(
                                   controller: passController,
                                   onChanged: (text) {
@@ -198,9 +200,10 @@ class LoginState extends State<Login> {
                             children: [
                               Container(
                                 margin: EdgeInsets.only(
-                                  top: 15,
+                                  top: 25,
                                   left: 10,
                                   right: 10,
+                                  bottom: 15,
                                 ),
                                 child: ElevatedButton(
                                   onPressed: () {
@@ -213,7 +216,7 @@ class LoginState extends State<Login> {
                                             BorderRadius.circular(18.0),
                                       ),
                                       padding:
-                                          EdgeInsets.only(left: 60, right: 60)),
+                                          EdgeInsets.only(left: 60, right: 60, top: 20, bottom: 20)),
                                   child: Text(
                                     'Acessar',
                                     style: TextStyle(color: Colors.white),
@@ -252,8 +255,8 @@ class LoginState extends State<Login> {
                       color: Colors.white,
                       border: Border.all(
                         style: BorderStyle.solid,
-                        color: Colors.black,
-                        width: 5,
+                        color: Colors.white,
+                        // width: 5,
                       ),
                       borderRadius: BorderRadius.circular(30),
                     ),
