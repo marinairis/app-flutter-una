@@ -11,11 +11,6 @@ void main() {
           textDirection: TextDirection.rtl,
           children: <Widget>[
             Container(
-              width: 250,
-              height: 250,
-              color: Colors.green,
-            ),
-            Container(
               padding: EdgeInsets.all(5.0),
               alignment: Alignment.center,
               decoration: BoxDecoration(
@@ -23,8 +18,9 @@ void main() {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: <Color>[
-                    Colors.yellow.withAlpha(0),
-                    Colors.yellow,
+                    Colors.green,
+                    Colors.yellow.withAlpha(150),
+                    Colors.green,
                   ],
                 ),
               ),
@@ -35,6 +31,7 @@ void main() {
                 ),
               ),
             ),
+            
           ],
         ),
       ),
