@@ -1,0 +1,39 @@
+html,
+body {
+  font-size: 16;
+  font-family: 'Segoe UI'
+}
+
+.caixaInput {
+  width: 40rem;
+  height: 3rem;
+  margin: 2rem auto;
+  /*background-color : yellow; */
+  background-image: linear-gradient(to bottom right, rgb(255, 145, 0), rgb(255, 230, 0));
+  padding: 1.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.caixaResult{
+  width: 40rem;
+  height: 3rem;
+  margin: 2rem auto;
+  background-image: linear-gradient(to bottom right, green, rgb(76, 194, 76));
+  padding: 1.5rem;
+}
+
+.Titulo{
+  font-size: 24px;
+  color: red;
+  text-align: center;
+}
+
+.botaoSoma{
+  width: 10;
+  height: 10;
+  background-color: whitesmoke;
+}

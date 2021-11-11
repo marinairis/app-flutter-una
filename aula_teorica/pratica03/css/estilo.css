@@ -33,7 +33,7 @@ a {
 form {
   width: 25rem;
   height: 10rem;
-  margin: 1rem auto;
+  margin: 2em auto;
   background-image: linear-gradient(to bottom right, orangered, orange);
   padding: 1.5rem;
 }
