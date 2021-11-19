@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/cadastro.js" type="text/javascript"></script>
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <form>
+        <h1>Cadastro de funcionários</h1>
+
+        <table>
+            <tr>
+                <td>Nome: </td>
+                <td>
+                    <input type="text" id="nome" class="entrada" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>E-mail: </td>
+                <td>
+                    <input type="text" id="email" class="entrada"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Data de nascimento: </td>
+                <td>
+                    <input type="text" id="datanasc" class="entrada" onkeypress="return mascData(this, event);"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Escolaridade: </td>
+                <td>
+                    <select id="escolaridade" class="entrada">
+                        <option value=""></option>
+                        <option value="1">Ensino Fundamental</option>
+                        <option value="2">Ensino Médio</option>
+                        <option value="3">Graduação</option>
+                        <option value="4">Pós-graduação</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Sexo: </td>
+                    <td>
+                        <input name="sexo" id="sexoFeminino" class="entrada" type="radio"/>
+                        <label form="feminino">
+                            Feminino
+                        </label>
+
+                    <input name="sexo" id="sexoMasculino" class="entrada" type="radio"/>
+                    <label for="masculino">
+                        Masculino
+                    </label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="reset" class="botao" value="Apagar" name="apaga"/>
+                </td>
+                <td>
+                    <input type="submit" class="botao" value="cadastrar" name="cadastrar" onclick="return verificarFormulario();"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div id="resp"></div>
+</body>
+
+</html>

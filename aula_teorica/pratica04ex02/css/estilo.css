@@ -1,0 +1,62 @@
+html,
+body{
+    font-family: Arial;
+    font-size: 16px;
+    height: 95%;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+form{
+    width: 23rem;
+    margin: 8rem auto 1rem auto;
+    background-image: linear-gradient(to bottom right, rgb(186, 41, 126), rgb(76, 113, 194));
+    color: black;
+    border: solid blueviolet 1px;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+td{
+    padding: .2rem;
+}
+
+#resp{
+    width: 22rem;
+    margin: 1rem auto 2rem auto;
+    color: red;
+    padding: 1rem;
+}
+
+.botao{
+    background-image: linear-gradient(to bottom left, rgb(86, 145, 223), rgb(97, 64, 245));
+    color: black;
+    padding: 0.4rem;
+    border: 0;
+    border-radius: .5rem;
+}
+
+.entrada{
+    border-radius: .5rem;
+    border: 0;
+}
+
+#nome,
+#email,
+#datanasc,
+#escolaridade{
+    width: 12rem;
+    height: 1.3rem;
+}
+
+option{
+    color: black;
+}
+
+#cadastro{
+    width: 12rem;
+}
