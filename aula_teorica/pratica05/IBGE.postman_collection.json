@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "5ab57d80-710d-4728-af8a-cd07cac2d4bd",
+		"name": "IBGE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Leitura",
+			"item": [
+				{
+					"name": "Requisição1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
+							"protocol": "https",
+							"host": [
+								"servicodados",
+								"ibge",
+								"gov",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"estados"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Requisição2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/distritos",
+							"protocol": "https",
+							"host": [
+								"servicodados",
+								"ibge",
+								"gov",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"distritos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Requisição3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/estados/mg/distritos",
+							"protocol": "https",
+							"host": [
+								"servicodados",
+								"ibge",
+								"gov",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"estados",
+								"mg",
+								"distritos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Requisição4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3106200/distritos",
+							"protocol": "https",
+							"host": [
+								"servicodados",
+								"ibge",
+								"gov",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"municipios",
+								"3106200",
+								"distritos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Requisição5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3118601/distritos",
+							"protocol": "https",
+							"host": [
+								"servicodados",
+								"ibge",
+								"gov",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"municipios",
+								"3118601",
+								"distritos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Requisição6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3106200%7C3118601/",
+							"protocol": "https",
+							"host": [
+								"servicodados",
+								"ibge",
+								"gov",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"municipios",
+								"3106200%7C3118601",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

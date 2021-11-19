@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "0f43264c-3b01-41f7-b226-e6f30a059735",
+		"name": "ViaCEP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Leitura",
+			"item": [
+				{
+					"name": "Requisição1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://viacep.com.br/ws/01001000/json/",
+							"protocol": "https",
+							"host": [
+								"viacep",
+								"com",
+								"br"
+							],
+							"path": [
+								"ws",
+								"01001000",
+								"json",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Requisição2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://viacep.com.br/ws/01001000/json/unicode/",
+							"protocol": "https",
+							"host": [
+								"viacep",
+								"com",
+								"br"
+							],
+							"path": [
+								"ws",
+								"01001000",
+								"json",
+								"unicode",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Requisição3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://viacep.com.br/ws/MG/Contagem/Jo%C3%A3o%20C%C3%A9sar%20de%20Oliveira/json/",
+							"protocol": "https",
+							"host": [
+								"viacep",
+								"com",
+								"br"
+							],
+							"path": [
+								"ws",
+								"MG",
+								"Contagem",
+								"Jo%C3%A3o%20C%C3%A9sar%20de%20Oliveira",
+								"json",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Requisição4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://viacep.com.br/ws/MG/Contagem/Jo%C3%A3o+C%C3%A9sar+de+Oliveira/json/",
+							"protocol": "https",
+							"host": [
+								"viacep",
+								"com",
+								"br"
+							],
+							"path": [
+								"ws",
+								"MG",
+								"Contagem",
+								"Jo%C3%A3o+C%C3%A9sar+de+Oliveira",
+								"json",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
