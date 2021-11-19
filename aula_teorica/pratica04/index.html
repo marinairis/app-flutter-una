@@ -10,23 +10,18 @@
 
 <body>
     <main>
-        <div class="titulo">
-            <h1>Somar dois Números</h1>
+        <h1>Somar dois números</h1>
+
+        <div class="numero">
+            Informe o primeiro número: <input id="txt1" type="number">
         </div>
 
-        <div class="caixaInput">
-            <label>Informe o primeiro número: <input id="txt1" type="number"></label>
+        <div class="numero">
+            Informe o primeiro número: <input id="txt2" type="number">
         </div>
 
-        <div class="caixaInput">
-            <label>Informe o segundo número: <input id="txt2" type="number"></label>
-        </div>
-
-        <div class="resultado" id="result">
-            <button type="submit" class="botaoSoma" onclick="somarValores()">
-                <label>Resultado: </label>
-            </button>
-        </div>
+        <button onclick="somarValores()">Somar</button>
+        <div id="result" class="resultado"></div>
     </main>
 </body>
 
