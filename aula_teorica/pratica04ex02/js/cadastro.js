@@ -1,18 +1,20 @@
 function mascData(objeto, evento) {
+    //6 braces 46 delete
     if (evento.keyCode == 8 || evento.keyCode == 46) {
         return true;
     }
 
+    //48 e 47: 0,1,2,3,4,5,6,7,8 e 9
     if (evento.keyCode < 48 || evento.keyCode > 57) {
-        alert("Somente número");
+        alert("Somente números");
         return false;
     }
 
-    if (objeto.value.lengh == 10) {
+    if (objeto.value.length == 10) {
         return false;
     }
 
-    if ((objeto.value.lengh == 2) || (objeto.value.lengh == 5)) {
+    if ((objeto.value.length == 2) || (objeto.value.length == 5)) {
         objeto.value = objeto.value + '/';
     }
 
@@ -39,9 +41,10 @@ function verificarFormulario() {
     }
 
     var sexoPreenchido = false;
-    var opcoesSexo = document.getElementById("sexo");
-    for (var i = 0; i < opcoesSexo.lengh; i++) {
+    var opcoesSexo = document.getElementByName("sexo");
+    for (var i = 0; i < opcoesSexo.length; i++) {
         if (opcoesSexo[i].checked) {
+            sexoPreenchido = true;
             break;
         }
     }

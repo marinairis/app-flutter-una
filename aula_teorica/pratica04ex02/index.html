@@ -3,11 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
-    <script src="js/cadastro.js" type="text/javascript"></script>
     <title>Cadastro</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <script src="js/cadastro.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -25,14 +23,14 @@
             <tr>
                 <td>E-mail: </td>
                 <td>
-                    <input type="text" id="email" class="entrada"/>
+                    <input type="text" id="email" class="entrada" />
                 </td>
             </tr>
 
             <tr>
                 <td>Data de nascimento: </td>
                 <td>
-                    <input type="text" id="datanasc" class="entrada" onkeypress="return mascData(this, event);"/>
+                    <input type="text" id="datanasc" class="entrada" onkeypress="return mascData(this, event);" />
                 </td>
             </tr>
 
@@ -52,24 +50,24 @@
             <tr>
                 <td>Sexo: </td>
                     <td>
-                        <input name="sexo" id="sexoFeminino" class="entrada" type="radio"/>
-                        <label form="feminino">
+                        <input name="sexo" id="sexoFeminino" class="entrada" type="radio" />
+                        <label for="sexoFeminino">
                             Feminino
                         </label>
 
-                    <input name="sexo" id="sexoMasculino" class="entrada" type="radio"/>
-                    <label for="masculino">
+                    <input name="sexo" id="sexoMasculino" class="entrada" type="radio" />
+                    <label for="sexoMasculino">
                         Masculino
                     </label>
-                </td>
+                </td>sexoFeminino
             </tr>
 
             <tr>
                 <td>
-                    <input type="reset" class="botao" value="Apagar" name="apaga"/>
+                    <input type="reset" class="botao" value="Limpar" name="limpa" />
                 </td>
                 <td>
-                    <input type="submit" class="botao" value="cadastrar" name="cadastrar" onclick="return verificarFormulario();"/>
+                    <input type="submit" id="cadastro" class="botao" value="Cadastrar" name="cadastro" onclick="return verificarFormulario();" />
                 </td>
             </tr>
         </table>
