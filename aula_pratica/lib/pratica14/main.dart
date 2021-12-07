@@ -31,12 +31,12 @@ class PrimeiraTela extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 45,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
               ),
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.blue,
+                color: Colors.red,
               ),
               padding: EdgeInsets.all(40),
               margin: EdgeInsets.all(25),
@@ -73,7 +73,7 @@ class SegundaTela extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.white,
         title: Text(
           "Segunda Tela",
           style: TextStyle(
@@ -95,7 +95,7 @@ class SegundaTela extends StatelessWidget {
               ),
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.pink,
+                color: Colors.red,
               ),
               padding: EdgeInsets.all(40),
               margin: EdgeInsets.all(25),
@@ -106,7 +106,7 @@ class SegundaTela extends StatelessWidget {
                 ElevatedButton(
                   child: Icon(
                     Icons.navigate_before,
-                    color: Colors.black,
+                    color: Colors.white,
                   ),
                   onPressed: () {
                     Navigator.pop(
@@ -117,7 +117,7 @@ class SegundaTela extends StatelessWidget {
                 ElevatedButton(
                   child: Icon(
                     Icons.navigate_next,
-                    color: Colors.black,
+                    color: Colors.white,
                   ),
                   onPressed: () {
                     Navigator.pushNamed(
@@ -139,7 +139,7 @@ class TerceiraTela extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(
           "Terceira Tela",
@@ -154,7 +154,7 @@ class TerceiraTela extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 45,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
               ),
               decoration: BoxDecoration(
@@ -195,9 +195,9 @@ class QuartaTela extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.greenAccent,
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.brown,
+        backgroundColor: Colors.blue,
         title: Text(
           "Quarta Tela",
         ),
@@ -211,12 +211,12 @@ class QuartaTela extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 45,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
               ),
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.brown,
+                color: Colors.red,
               ),
               padding: EdgeInsets.all(40),
               margin: EdgeInsets.all(25),
@@ -227,7 +227,7 @@ class QuartaTela extends StatelessWidget {
                 ElevatedButton(
                   child: Icon(
                     Icons.navigate_before,
-                    color: Colors.purple,
+                    color: Colors.white,
                   ),
                   onPressed: () {
                     Navigator.pop(context);
@@ -236,7 +236,7 @@ class QuartaTela extends StatelessWidget {
                 ElevatedButton(
                   child: Icon(
                     Icons.navigate_next,
-                    color: Colors.black,
+                    color: Colors.white,
                   ),
                   onPressed: () {
                     Navigator.pushNamed(
